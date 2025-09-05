@@ -1,0 +1,21 @@
+Face-Emotion-detector/
+│
+├── images/                # Dataset (downloaded from Kaggle)
+│   ├── train/             # Training images (angry, happy, sad, etc.)
+│   └── test/              # Testing images
+│
+├── model/                 # Saved trained CNN models
+│
+├── notebooks/             # Jupyter notebooks for experiments
+│
+├── src/                   # Source code
+│   ├── data_preprocessing.py  # Image preprocessing & augmentation
+│   ├── train_model.py         # Training script for CNN
+│   ├── emotion_detector.py    # Real-time webcam detection
+│   └── utils.py               # Helper functions
+│
+├── requirements.txt       # Python dependencies
+├── app.py                 # Main entry point for real-time emotion detection
+├── README.md              # Project description & documentation
+├── CONTRIBUTING.md        # Contribution guidelines
+└── LICENSE                # MIT License
