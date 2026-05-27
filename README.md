@@ -88,7 +88,7 @@ Extract the .zip file
 Place the extracted folder into your project directory as images/
 
 📌 The folder usually has subdirectories like:
-
+```
 bash
 Copy code
 images/
@@ -104,3 +104,4 @@ images/
 │   ├── sad/
 │   ├── neutral/
 │   └── surprised/
+```
